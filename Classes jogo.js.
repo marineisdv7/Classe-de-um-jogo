@@ -1,0 +1,21 @@
+# Classe-de-um-jogo
+Desafio da DIO-escrevendo as classes de um jogo
+# 1. Crie uma pasta
+mkdir classes-de-um-jogo
+cd classes-de-um-jogo
+
+# 2. Inicie o Git
+git init
+
+# 3. Adicione o arquivo do projeto
+echo "class Heroi {...}" > classesJogo.js
+
+# 4. Adicione e faça commit
+git add .
+git commit -m "Desafio DIO - Escrevendo as classes de um jogo"
+
+# 5. Conecte ao repositório do GitHub
+git remote add origin https://github.com/SEU-USUARIO/classes-de-um-jogo.git
+
+# 6. Envie os arquivos
+git push -u origin main
